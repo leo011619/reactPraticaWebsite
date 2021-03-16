@@ -4,7 +4,7 @@ import './style.css'
 const Produto = () =>{
     return(
         <>
-        <small>Voce está na página Produto</small>
+        <small>Voce está na página Produtos</small>
         <Main />
         </>
     )
