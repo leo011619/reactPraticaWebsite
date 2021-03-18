@@ -1,5 +1,6 @@
 import Main from '../../components/Main'
 import './style.css'
+import { content } from '../../Helpers'
 
 const Produto = () =>{
     return(

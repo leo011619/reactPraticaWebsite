@@ -8,17 +8,14 @@ import Contato from '../pages/Contato'
 
 const Routes = () => {
   return (
-    <Router>
       <Switch>
         <Route path="/contato" component={Contato} />
         <Route exact path="/categorias" component={Categoria} />
         <Route exact path="/categorias/:categoria" component={Categoria} />
         <Route exact path="/categorias/:categoria/:produto" component={Produto} />
-        <Route path="/produtos" component={Produto} />
         <Route path="/sobre" component={Sobre} />
         <Route path="/" component={Home} />
       </Switch>
-    </Router>
   )
 }
 export default Routes

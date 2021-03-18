@@ -33,3 +33,16 @@
     margin: 0 0 0 24px;
   }
   
+  .header__nav__item--disabled {
+    color: #d3d3d3;
+    cursor: none;
+    font-weight: normal;
+    margin: 0 0 0 24px;
+    pointer-events: none;
+  }
+ 
+  .header__nav__item.selected {
+    color: #00dbf8;
+    font-weight: bold;
+    
+  }
